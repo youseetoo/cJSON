@@ -1,0 +1,20 @@
+{
+  "name": "cJSON",
+  "version": "1.7.18",
+  "description": "cJSON - ultralightweight JSON parser in C (ESP32/PIO build; submodule DaveGamble/cJSON)",
+  "keywords": "JSON, C, parser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaveGamble/cJSON"
+  },
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "cJSON.h",
+  "build": {
+    "srcFilter": [
+      "+<cJSON.c>",
+      "+<cJSON_Utils.c>"
+    ]
+  }
+}
